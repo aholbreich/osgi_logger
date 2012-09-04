@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.holbreich.osgi.logexample">
+   <implementation class="org.holbreich.osgi.logexample.LogExample"/>
+   <reference name="logService" 
+       interface="org.osgi.service.log.LogService" 
+       bind="setLogService"
+       undbind="unsetLogService"
+    />
+       
+</scr:component>
