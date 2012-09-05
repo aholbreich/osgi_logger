@@ -5,6 +5,11 @@ import org.osgi.service.log.LogEntry;
 import org.osgi.service.log.LogListener;
 import org.osgi.service.log.LogReaderService;
 
+/**
+ * Simple OSGi LogListener implementation.
+ * @author aho
+ *
+ */
 public class ConsoleLogger implements LogListener {
 
 	private LogReaderService logReaderService;
